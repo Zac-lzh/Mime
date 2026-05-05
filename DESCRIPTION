@@ -1,0 +1,104 @@
+Package: Mime1
+Type: Package
+Title: Machine learning-based integration model with elegant performance
+Version: 0.0.0.9000
+Author@R: c(
+    person("Wei", "Zhang", , "xxx", role = c("cre", "aut")),
+    person("Hongwei", "Liu", , "xxx", role = "aut"),
+    person("Yihao", "Zhang", , "xxx", role = "aut"),
+  )
+Description: The Mime package provides a user-friendly solution for constructing 
+    machine learning-based integration models from transcriptomic data. With the 
+    widespread use of high-throughput sequencing technologies, understanding biology 
+    and cancer heterogeneity has been revolutionized. Mime streamlines the process of 
+    developing predictive models with high accuracy, leveraging complex datasets to 
+    identify critical genes associated with disease progression, patient outcomes, 
+    and therapeutic response. It offers four main applications (i) establishing 
+    prognosis models using 10 machine learning algorithms, (ii) building binary 
+    response models with 7 machine learning algorithms, (iii) conducting core feature 
+    selection related to prognosis using 8 machine learning methods, and (iv) visualizing 
+    the performance of each model. 
+License: MIT + file LICENSE
+URL: https://github.com/l-magnificence/Mime
+BugReports: https://github.com/l-magnificence/Mime/issues
+Depends: 
+    R (>= 4.1.0)
+Imports:
+    BART,
+    ComplexHeatmap,
+    Boruta,
+    Ckmeans.1d.dp,
+    Hmisc,
+    Matrix,
+    R.utils,
+    ROCR,
+    ROCit,
+    UpSetR,
+    aplot,
+    caret,
+    compareC,
+    compositions,
+    data.table,
+    doParallel,
+    dplyr,
+    e1071,
+    forestploter,
+    future,
+    gbm,
+    ggbreak,
+    ggplot2,
+    ggpubr,
+    ggsci,
+    glmnet,
+    grid,
+    gridExtra,
+    kknn,
+    magrittr,
+    mboost,
+    meta,
+    miscTools,
+    mixtools,
+    mRMRe,
+    ncvreg,
+    obliqueRSF,
+    party,
+    pbapply,
+    pec,
+    plsRcox,
+    pROC,
+    randomForestSRC,
+    readr,
+    recipes,
+    reshape2,
+    scales,
+    stabs,
+    stringr,
+    superpc,
+    survC1,
+    survIDINRI,
+    survival,
+    survivalROC,
+    survivalsvm,
+    tibble,
+    tidyr,
+    tidyverse,
+    viridis,
+    xgboost
+Suggests:
+    immunedeconv,
+    IOBR,
+    knitr,
+    rmarkdown,
+    testthat
+biocViews:
+    GSEABase, 
+    GSVA,
+    cancerclass,
+    mixOmics,
+    sparrow,
+    sva 
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+Config/testthat/edition: 3
+VignetteBuilder: knitr
